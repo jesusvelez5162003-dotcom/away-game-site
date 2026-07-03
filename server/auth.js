@@ -1,5 +1,13 @@
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcryptjs'
+import dotenv from 'dotenv'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+dotenv.config({ path: path.resolve(__dirname, '..', '.env') })
 
 const SECRET = process.env.JWT_SECRET || 'away_secret_dev'
 const EXPIRES = process.env.JWT_EXPIRES || '8h'
