@@ -67,7 +67,7 @@ export default function AdminLogin() {
         </form>
 
         <p className="login-card__hint">
-          Usa el usuario y la contraseña configurados en el archivo .env del backend.
+          Por defecto: Usuario:"admin" Contraseña:"admin123"
         </p>
       </div>
     </div>
