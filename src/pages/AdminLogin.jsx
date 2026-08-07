@@ -67,7 +67,7 @@ export default function AdminLogin() {
         </form>
 
         <p className="login-card__hint">
-          Por defecto, el usuario y la contraseña del administrador son <strong>admin</strong> y <strong>admin123</strong>. Se recomienda cambiar la contraseña en cuanto se acceda al panel de administración.
+          Área restringida para administradores. Solicite sus credenciales de acceso al equipo de desarrollo.
         </p>
       </div>
     </div>
